@@ -1,0 +1,370 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  width: 100vw;
+  position:fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  text-shadow: 5px 2px 5px rgba(242,173,68,0.89);
+  color: #f2ad44;
+  font-size: 17px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  transition-duration: 0.5s;
+  transform:scale(1.1);
+  opacity: 0.9;
+}
+
+
+.script-class {
+  background-color: black;
+  transition: all 1s ease;
+}
+
+
+.activado {
+  border-bottom: 1px solid #f2ad44;
+  font-weight: bold;
+}
+
+#main .carousel-inner img {
+  max-height: 80vh;
+  object-fit: cover;
+  filter: grayscale(20%);
+}
+
+#carousel {
+  position: relative;
+}
+
+.overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  
+}
+
+#carousel > div > div.overlay > div > div > div > div:nth-child(2) > h1{
+
+  color: #f2ad44;
+  font-size: 30px;
+}
+
+#carousel > div > div.overlay > div > div > div > h1{
+  font-size: 46px;
+  margin-top:10px;
+}
+
+.span {
+  color: whitesmoke;
+  font-size: 36px;
+}
+
+
+.h1-text {
+  color: #f2ad44;
+  font-size: 73px;
+  font-family: 'Black Ops One', cursive;
+}
+
+
+.span2 {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+/* ------ FIN HEADER ------- */
+
+/* ------- CAROUSEL -------- */
+
+#carousel h1 {
+  font-size: 80px;
+}
+
+.imagen-work:hover{
+  opacity: 0.6;
+}
+
+/* ----- FIN CAROUSEL --------- */
+
+/* ----- SECCION PRINCIPAL ----------- */
+
+.container-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+
+.container-text h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #f2ad44;
+  margin: 0px 0px 10px;
+  
+}
+
+
+
+
+img {
+  transition-duration: 0.5s ;
+}
+
+img:hover {
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+
+.card-img-top {
+  transition-duration: 0.5s;
+}
+
+.card-img-top:hover {
+  transform:scale(0.9);
+  opacity: 0.9;
+}
+
+
+/* ----- SECCION PRICIPAL-------- */
+
+/* ------- ABOUT US ------------ */
+
+/*Section About */
+
+#carousel > div.overlay > div > div > div > h1{
+  font-size: 50px;
+}
+
+#main .carrousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+#carousel{
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.span-text{
+    font-size: 20px;
+}
+.img-por{
+    width: 100vw;
+    height: 50vh;
+}
+.img-fotos{
+    border: 9px solid #f2ad44;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+
+.img-fotos:hover{
+   webkit-transform:scale(1.09);
+}
+
+
+/*Modal readme */
+.modal-body img{
+    width: 100%;
+}
+
+#modalblog1 div.modal-footer > button{
+  color: black;;
+}
+
+#modalblog2 div.modal-footer > button{
+  color: black;;
+}
+
+#modalblog3 div.modal-footer > button{
+  color: black;;
+}
+
+#modalblog4 div.modal-footer > button{
+  color: black;;
+}
+
+.btn-secondary{
+  background-color: whitesmoke;
+  border: 1px solid #f2ad44;
+}    
+ 
+.btn-secondary:hover{
+  background-color: #f2ad44;
+  
+}    
+
+
+/* ----- FIN ABOUT US------- */
+
+/* ----- SECCION PRINCIPAL ----------- */
+
+.container-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+.container-text h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #f2ad44;
+  margin: 0px 0px 10px;
+  
+}
+
+
+
+.container-text p {
+  font-size: 15px;
+
+}
+
+
+.card-img-top {
+  transition-duration: 0.5s;
+}
+
+.card-img-top:hover {
+  transform:scale(0.9);
+  opacity: 0.9;
+}
+
+
+/* ----- FIN SECCION PRICIPAL-------- */
+
+/* INICIO SECCION CONTACTO */
+
+.escribinos {
+  font-family: "Playfair Display", serif;
+  color: #f2ad44;
+  font-size: 25px;
+}
+
+.card {
+  background-color: rgb(243, 241, 241);
+}
+
+#carousel > div.overlay > div > div > div > h1{
+  font-size: 40px;
+}
+
+
+.btn-warning:hover {
+  
+  text-decoration: none;
+}
+
+#carousel > div.overlay > div > div > div > h1{
+  margin-top: 50px;
+}
+
+/* FIN DE SECCION CONTACTO */
+
+
+
+
+.redes{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2ad44 ;
+}
+
+.iconos {
+  text-decoration: none;
+  color: black;
+}
+.iconos {
+  transition-property: filter;
+  transition-duration: 0.3s;
+}
+.iconos:hover {
+  color:white;
+  transform: scale(1.25);
+  opacity: 1.5;
+  
+}
+
+
+
+
+
+.footer-wrap{
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #000000;
+  color:white;
+}
+
+
+textarea{
+  resize: none;
+}
+
+
+/* ------ FOOTER------ */
+
+
+.footer-wrap{
+  background-color: black;
+  color: white;
+}
+.enlaces,
+li{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.column1,
+.column2,
+.column3{
+  margin-top: 10px;
+}
+
+.icon:hover{
+  opacity: 0.7;
+}
+.enlaces:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ------ FOOTER--------- */
+
+/* ---- ERROR 404 ------*/
+
+.error {
+  text-align: center;
+  background-color: black;
+}
+
+/* ------ ERROR 404 */
